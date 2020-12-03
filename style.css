@@ -191,14 +191,21 @@ body{
 
 .dog-img{
     max-width: 40px;
-    margin-left: .5em;
     border-radius: 1em;
 }
 
+.chat__img :nth-child(2){
+    margin-left: .5em;
+}
+
+.chat__img :nth-child(3){
+    margin-left: .5em;
+}
+
 .chat__img{
-    /* display: flex;
-    justify-content: flex-end; */
-    margin-left: 8.5em;
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
 .log-price{
@@ -229,6 +236,7 @@ body{
     vertical-align: middle;
     border: 1px solid #ddd;
     appearance: none;
+    -webkit-appearance: none;
     outline: none;
     cursor: pointer;
     margin-right: 1em;
@@ -251,6 +259,7 @@ body{
     vertical-align: middle;
     border: 1px solid #ddd;
     appearance: none;
+    -webkit-appearance: none;
     outline: none;
     cursor: pointer;
     margin-right: 1em;
@@ -335,6 +344,10 @@ body{
        padding: 2em;
        text-align: center;
        
+    }
+
+    .phone{
+        height: 560px;
     }
 }
 
