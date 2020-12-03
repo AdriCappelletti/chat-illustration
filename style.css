@@ -190,14 +190,15 @@ body{
 }
 
 .dog-img{
-    width: 40px;
-    margin-left: 1em;
+    max-width: 40px;
+    margin-left: .5em;
     border-radius: 1em;
 }
 
 .chat__img{
-    display: flex;
-    justify-content: flex-end;
+    /* display: flex;
+    justify-content: flex-end; */
+    margin-left: 8.5em;
 }
 
 .log-price{
