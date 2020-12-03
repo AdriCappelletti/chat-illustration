@@ -192,6 +192,7 @@ body{
 .dog-img{
     max-width: 40px;
     border-radius: 1em;
+    align-self: center;
 }
 
 .chat__img :nth-child(2){
@@ -205,7 +206,7 @@ body{
 .chat__img{
     display: flex;
     justify-content: flex-end;
-    align-self: center;
+    
     
 }
 
